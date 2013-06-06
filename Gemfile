@@ -23,6 +23,7 @@ end
 group :production do
   gem 'mysql'
   gem 'activerecord-mysql2-adapter'
+  gem 'therubyracer'
 end
 
 gem 'jquery-rails'
@@ -37,8 +38,7 @@ gem 'jquery-rails'
 # gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
-
+gem 'capistrano'
+gem 'rvm-capistrano'
 # To use debugger
 # gem 'debugger'
-gem 'therubyracer'
