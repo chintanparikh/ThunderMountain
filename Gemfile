@@ -6,7 +6,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
+gem 'ruby-hl7', git: "git@github.com:chintanparikh/ruby-hl7.git"
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -22,6 +22,11 @@ group :assets do
   gem 'twitter-bootstrap-rails'
   gem 'less-rails'
   gem 'therubyracer'
+end
+
+group :development, :test do
+  gem 'factory_girl'
+  gem 'factory_girl_rails'
 end
 
 group :production do

@@ -1,0 +1,10 @@
+- unless @messages.nil?
+  %table.table
+    %tr.th
+      %td Message
+      %td Status
+    - @messages.each do |message|
+      %tr
+        %td= message.text
+        %td= message.sent ? "Sent to EC2" : "Pending"
+
