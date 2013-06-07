@@ -18,12 +18,15 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'haml'
+  gem 'twitter-bootstrap-rails'
+  gem 'less-rails'
+  gem 'therubyracer'
 end
 
 group :production do
   gem 'mysql'
   gem 'activerecord-mysql2-adapter'
-  gem 'therubyracer'
 end
 
 gem 'jquery-rails'
