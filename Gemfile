@@ -6,6 +6,8 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+
+# Forked it to hack onto it later, there are a few possibly improvements, such as adding different message types with default segments
 gem 'ruby-hl7', git: "git@github.com:chintanparikh/ruby-hl7.git"
 
 # Gems used only for assets and not required
