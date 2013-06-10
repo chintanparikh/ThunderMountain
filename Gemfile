@@ -32,8 +32,7 @@ group :development, :test do
 end
 
 group :production do
-  gem 'mysql'
-  gem 'activerecord-mysql2-adapter'
+  gem 'mysql2'
 end
 
 gem 'jquery-rails'

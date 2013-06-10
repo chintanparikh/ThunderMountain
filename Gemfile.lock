@@ -30,8 +30,6 @@ GEM
       activesupport (= 3.2.13)
       arel (~> 3.0.2)
       tzinfo (~> 0.3.29)
-    activerecord-mysql2-adapter (0.0.3)
-      mysql2
     activeresource (3.2.13)
       activemodel (= 3.2.13)
       activesupport (= 3.2.13)
@@ -84,7 +82,6 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.23)
     multi_json (1.7.6)
-    mysql (2.9.1)
     mysql2 (0.3.11)
     net-scp (1.1.1)
       net-ssh (>= 2.6.5)
@@ -157,7 +154,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord-mysql2-adapter
   capistrano
   coffee-rails (~> 3.2.1)
   factory_girl
@@ -165,7 +161,7 @@ DEPENDENCIES
   haml
   jquery-rails
   less-rails
-  mysql
+  mysql2
   rails (= 3.2.13)
   ruby-hl7!
   rvm-capistrano
