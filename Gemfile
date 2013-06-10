@@ -12,6 +12,8 @@ gem 'ruby-hl7', git: "git@github.com:chintanparikh/ruby-hl7.git"
 
 gem 'haml'
 gem 'haml-rails'
+gem 'twitter-bootstrap-rails'
+gem 'less-rails' 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -22,8 +24,6 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
-  gem 'twitter-bootstrap-rails'
-  gem 'less-rails'
   gem 'therubyracer'
 end
 
