@@ -1,4 +1,6 @@
-
+= form_for @message do |f|
+  = f.text_field :text
+  = f.submit "Create new message", class: "btn btn-primary"
 - unless @messages.nil?
   %table.table
     %tr.th

@@ -6,6 +6,14 @@ class MessagesController < ApplicationController
   end
 
   def create
+    @message = Message.create(text: params[:message][:text])
+    if @message.persisted?
+      flash[:message] = "Created message successfully"
+    else
+      flash[:error] = "Message creation failed"
+    end
+
+    redirect_to messages_path
   end
 
   def destroy
