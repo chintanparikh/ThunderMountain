@@ -10,6 +10,8 @@ gem 'sqlite3'
 # Forked it to hack onto it later, there are a few possibly improvements, such as adding different message types with default segments
 gem 'ruby-hl7', git: "git@github.com:chintanparikh/ruby-hl7.git"
 
+gem 'haml'
+gem 'haml-rails'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -20,8 +22,6 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
-  gem 'haml'
-  gem 'haml-rails'
   gem 'twitter-bootstrap-rails'
   gem 'less-rails'
   gem 'therubyracer'
